@@ -1,8 +1,9 @@
-const http = require("http");
-const { Server } = require("socket.io");
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-require("dotenv").config();
+const http = require("http");
+const { Server } = require("socket.io");
 
 const connectDB = require("./config/db");
 const documentRoutes = require("./routes/documentRoutes");
@@ -11,14 +12,18 @@ const registerEditorSocket = require("./socket/editorSocket");
 const app = express();
 const server = http.createServer(app);
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("Real-time Editor API is running");
+});
 
 app.use("/api/documents", documentRoutes);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
@@ -26,9 +31,8 @@ const io = new Server(server, {
 registerEditorSocket(io);
 
 const PORT = process.env.PORT;
-
 connectDB();
 
 server.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on ${PORT}`);
 });
