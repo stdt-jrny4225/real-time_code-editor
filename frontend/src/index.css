@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+}
+
+.navbar {
+  background: #ff6a00;
+  color: white;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.home-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.home-header input {
+  flex: 1;
+  padding: 8px;
+}
+
+.home-header button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor-page {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title-input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 60%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.autosave-text {
+  font-size: 12px;
+  color: gray;
+}
+.text-editor {
+  width: 100%;
+  min-height: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f3f4f6;
+}
+
+.navbar {
+  background: #ff6a00;
+  color: white;
+  padding: 14px 24px;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+}
+
+/* Home page */
+.home-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.home-header input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.home-header button {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-header button:hover {
+  background: #1d4ed8;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-item {
+  background: white;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e5e7eb;
+}
+
+.doc-item:hover {
+  background: #f9fafb;
+}
+
+/* Editor page */
+.editor-page {
+  margin-top: 8px;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  gap: 12px;
+}
+
+.editor-header .left {
+  flex: 1;
+}
+
+.title-input {
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  outline: none;
+}
+
+.meta {
+  font-size: 12px;
+  color: #6b7280;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.typing-indicator {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.editor-header .right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.save-message {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.text-editor {
+  width: 100%;
+  min-height: 420px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.btn-danger {
+  background: #dc2626;
+  color: white;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
+
+.active-users {
+  font-weight: 500;
+  color: #0f766e;
+}
+
