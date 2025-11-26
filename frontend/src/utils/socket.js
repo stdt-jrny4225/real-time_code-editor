@@ -5,7 +5,7 @@ let socket;
 
 export const getSocket = () => {
   if (!socket) {
-    socket = io("http://localhost:5000");
+    socket = io("https://real-time-code-editor-1izy.onrender.com");
   }
   return socket;
 };

@@ -1,7 +1,7 @@
 // frontend/src/services/api.js
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://real-time-code-editor-1izy.onrender.com/api";
 
 export const getDocuments = () =>
   axios.get(`${API_BASE}/documents`).then((res) => res.data);
