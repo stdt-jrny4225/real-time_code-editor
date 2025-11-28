@@ -71,7 +71,7 @@ Component	Status	Link
 
 Backend API	 LIVE
 
-https://real-time-code-editor-1izy.onrender.com/api/documents 
+https://real-time-code-editor-1izy.onrender.com/api/documents
 
 Frontend :
 
