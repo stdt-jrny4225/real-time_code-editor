@@ -10,6 +10,8 @@
 
 *DURATION:* 6 WEEKS
 
+*MENTOR:* NEELA SANTOSH
+
 *BATCH:* 25 OCT TO 10 DEC 2025
 
 *DEPLOYED LINK:* https://real-time-code-editor-1-i23l.onrender.com
