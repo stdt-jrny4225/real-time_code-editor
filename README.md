@@ -95,6 +95,15 @@ Auto-save    :-                	Updates DB every few seconds ("you can save manu
 
 Delete documents  :-           	Removes from dashboard & DB
 
+# OUTOUT
+
+OUTPUT PICTURE:-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6e154b52-3753-4822-b8c8-facfadb120b0" /> 
+
+OUTPUT VIDEO:-
+
+https://github.com/user-attachments/assets/2fc2cdf0-8691-4e96-a1f1-c26937cb7a01
+
 # Learning Outcomes
 
 Through this project, I gained strong knowledge in:
